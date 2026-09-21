@@ -20,3 +20,4 @@ total <-- price * quantity
 
 OUTPUT "Total: ", total
 ```
+# lab05
