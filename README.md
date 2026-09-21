@@ -1,5 +1,4 @@
-# Debugging Warm-Up 05
-
+# Lab05
 This program takes two variables, a quantity and price, multiplies them together, then displays the total.
 
 ## Flow Chart
@@ -20,4 +19,3 @@ total <-- price * quantity
 
 OUTPUT "Total: ", total
 ```
-# lab05
