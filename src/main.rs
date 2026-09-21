@@ -1,19 +1,15 @@
+use count_divisors;
+use is_prime;
 fn main() {
-    let price: f64 = 2.5;
-    let quantity: f64 = 4.0;
-    let total: f64;
-    total = (price * quantity);
-
-    println!("Total: {total}");
-
-
-
-
-
-
-
-
-
+    let start = read_i32("Start of range:");
+    let end = read_i32("End of range:");
+    for n in start..=end {
+        println!(
+            "{n}: even={}, digit_sum={}, prime={}, divisors={}",
+            is_even(n),
+            digit_sum(n),
+            is_prime(n),
+            count_divisors(n)
+        );
+    }
 }
-
-
