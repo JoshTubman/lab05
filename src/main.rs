@@ -14,6 +14,7 @@ fn main() {
             count_divisors(n)
         );
     }
+// is prime function
 fn is_prime(n: i32){ 
 let mut divisor_count: i32 =0;
 let mut divider : i32 = n;
@@ -24,10 +25,11 @@ divisor_count +=1;
 }else {}
 divider -=1;
 }if divisor_count == 2{
-is_prime== true
+is_prime: true
 }else{
-is_prime== false
+is_prime: false
 }}
+// divisor count function
 fn count_divisors (n: i32){
 let mut divisor_count: i32 =0;
 let mut divider: i32 = n
@@ -38,4 +40,26 @@ divisor_count+=1;
 divider-=1;
 }}
 divisor_count==divisor_count
+}
+// is even function
+fn is_even (n: i32){
+let mut even: bool;
+while n>0{
+n-=2;
+}if n == 0{
+even: true
+}else{
+even: false
+}}
+//Digit sum function 
+fn digit_sum (n: i32){
+let mut digit: i32;
+let mut sum_digit: i32 =0;
+let mut n_div10: i32 = n;
+while n>0{
+digit==n_div10%10;
+sum_digit+=digit;
+n_div10/=10;
+}
+return:sum_digit
 }
